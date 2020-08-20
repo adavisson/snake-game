@@ -2,6 +2,8 @@
   "name": "snake-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
+  "main": "./electron/main.js",
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build --dest build",
