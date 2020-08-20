@@ -12,6 +12,8 @@ const createWindow = () => {
     resizable: false,
     center: true,
     titleBarStyle: 'hidden',
+    fullscreen: false,
+    fullscreenable: false
   })
 
   const startURL = isDev
