@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Game />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Game from "./components/Game.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Game
   }
 };
 </script>
@@ -24,5 +23,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  max-height: 100%;
+  max-width: 100%;
+  background-color: aqua;
 }
 </style>
