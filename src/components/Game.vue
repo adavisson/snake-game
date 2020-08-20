@@ -1,27 +1,27 @@
 <template>
-  <div class="snake">
+  <div class="game">
     <h3>Snake</h3>
-    <div class="game-area"></div>
+    <Board />
   </div>
 </template>
 
 <script>
+import Board from "./Board";
+
 export default {
   name: "Game",
-  data: () => ({}),
-}
+  components: {
+    Board
+  },
+  data: () => ({})
+};
 </script>
 
 <style scoped>
-  .snake {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .game-area {
-    background-color: white;
-    width: 500px;
-    height: 500px;
-  }
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 </style>
